@@ -4,7 +4,7 @@
 		<listener class-name="classmates.common.log.TestngListener" />
 	</listeners>
 	<parameter name="webDriverURL"
-		value="http://megakrasnov:c3e993ad-b4eb-4575-a0a5-7bcdc20323bd@ondemand.saucelabs.com:80/wd/hub" />
+	value="http://classmatestest:bba84353-a8a7-4f1d-bded-d27cc820b3bd@ondemand.saucelabs.com:80/wd/hub" />
 	<parameter name="classmatesUrl"
 		value="http://www.odnoklassniki.ru/dk?cmd=AnonymLogin&amp;st.cmd=anonymLogin" />
 	<parameter name="firefoxVersion" value="5" />
