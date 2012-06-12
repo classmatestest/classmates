@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Classmates Test Suite" parallel="false">
+	<listeners>
+		<listener class-name="classmates.common.log.TestngListener" />
+	</listeners>
+	<parameter name="webDriverURL"
+		value="http://megakrasnov:c3e993ad-b4eb-4575-a0a5-7bcdc20323bd@ondemand.saucelabs.com:80/wd/hub" />
+	<parameter name="classmatesUrl"
+		value="http://www.odnoklassniki.ru/dk?cmd=AnonymLogin&amp;st.cmd=anonymLogin" />
+	<parameter name="firefoxVersion" value="5" />
+	<parameter name="firefoxPlatform" value="xp" />
+	<test name="Authorisation And Personal Info Test">
+		<classes>
+			<class name="classmates.tests.session.SessionTest" />
+			<class name="classmates.tests.info.InfoTest" />
+		</classes>
+	</test>
+</suite>
