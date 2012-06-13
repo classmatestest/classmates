@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>classmates</groupId>
+	<groupId>com.mailru.classmates</groupId>
 	<artifactId>classmates</artifactId>
 	<version>trunk</version>
 	<packaging>jar</packaging>
@@ -53,8 +53,8 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>classmates.Runner</mainClass>
-							<packageName>classmates</packageName>
+							<mainClass>com.mailru.classmates.Runner</mainClass>
+							<packageName>com.mailru.classmates</packageName>
 						</manifest>
 						<manifestEntries>
 							<mode>development</mode>
